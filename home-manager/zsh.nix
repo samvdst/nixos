@@ -13,7 +13,6 @@
         gl = "git log";
         lg = "lazygit";
         hb = "gh browse";
-        vim = "nvim";
         v = "nvim";
         c = "nvim";
         cat = "bat";

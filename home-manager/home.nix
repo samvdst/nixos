@@ -54,7 +54,6 @@
 
   # Add stuff for your user as you see fit:
   home.packages = with pkgs; [
-    alacritty
     _1password-gui
     bat
     bemenu # wayland clone of dmenu
@@ -98,6 +97,7 @@
   # Enable home-manager and git
   programs.home-manager.enable = true;
   programs.git.enable = true;
+  programs.alacritty.enable = true;
 
   # Nicely reload system units when changing configs
   systemd.user.startServices = "sd-switch";
