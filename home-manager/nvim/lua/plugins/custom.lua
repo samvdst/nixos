@@ -31,8 +31,8 @@ return {
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
-      ensure_installed = "all",
-      ignore_install = { "bicep", "jsdoc", "groovy", "slint" },
+      ensure_installed = "maintained",
+      -- ignore_install = { "bicep", "jsdoc", "groovy", "slint" },
     },
   },
 
