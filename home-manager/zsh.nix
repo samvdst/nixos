@@ -36,14 +36,6 @@
 
       plugins = [
         {
-            name = "zsh-autosuggestions";
-            file = "zsh-autosuggestions.plugin.zsh";
-            src = builtins.fetchGit {
-              url = "https://github.com/zsh-users/zsh-autosuggestions";
-              rev = "a411ef3e0992d4839f0732ebeb9823024afaaaa8";
-            };
-        }
-        {
             name = "zsh-vi-mode";
             file = "zsh-vi-mode.plugin.zsh";
             src = builtins.fetchGit {
