@@ -79,6 +79,9 @@
     xfce.thunar
     pulseaudio
     wget
+    zsh-autosuggestions
+    zsh-vi-mode
+    zsh-syntax-highlighting
     zig
     zoxide
   ];
