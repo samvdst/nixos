@@ -35,7 +35,7 @@
       dotDir = ".config/";
       oh-my-zsh = {
         enable = true;
-        plugins = [ "git" ];
+        plugins = [ "git" "zsh-auto" "zsh-autosuggestions" "zsh-vi-mode" "zsh-syntax-highlighting" ];
         theme = "gozilla";
       };
   };
