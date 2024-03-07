@@ -135,6 +135,8 @@ in
   time.timeZone = "Europe/Zurich";
   i18n.defaultLocale = "en_US.UTF-8";
 
+  programs.zsh.enable = true;
+
   users.users = {
     sam = {
       isNormalUser = true;
@@ -143,6 +145,7 @@ in
       ];
       # Be sure to add any other groups you need (such as networkmanager, audio, docker, etc)
       extraGroups = ["networkmanager" "wheel"];
+      shell = pkgs.zsh;
     };
   };
 
