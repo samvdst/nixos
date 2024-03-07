@@ -53,6 +53,8 @@
     homeDirectory = "/home/sam";
   };
 
+  users.users.sam.shell = pkgs.zsh;
+
   # Add stuff for your user as you see fit:
   home.packages = with pkgs; [
     _1password-gui
