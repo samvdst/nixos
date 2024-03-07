@@ -131,46 +131,12 @@ in
 	    packages = with pkgs; [
 	      alacritty
 	      _1password-gui
-	      bat
-	      bemenu # wayland clone of dmenu
-	      cargo
 	      configure-gtk
 	      curl
 	      dbus
 	      dbus-sway-environment
 	      dracula-theme
-	      fnm
-	      gh
-	      git
-	      glib
 	      gnome3.adwaita-icon-theme
-	      google-chrome
-	      grim # screenshot
-	      i3blocks
-	      i3status
-	      lazygit
-	      mako # notification system developed by swaywm maintainer
-	      neovim
-	      nerdfonts
-	      oh-my-zsh
-	      pavucontrol
-	      remmina
-	      ripgrep
-	      rustup
-	      signal-desktop
-	      slurp # screenshot
-	      swayidle
-	      swaylock
-	      tmux
-	      vim
-	      wayland
-	      wdisplays # tool to configure displays
-	      wget
-	      wl-clipboard # wl-copy and wl-paste for copy/paste from stdin/stdout
-	      xdg-utils
-	      zig
-	      zoxide
-	      zsh
 	    ];
     };
   };

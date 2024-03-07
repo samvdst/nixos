@@ -59,10 +59,10 @@
     bat
     bemenu # wayland clone of dmenu
     cargo
-    configure-gtk
+#    configure-gtk
     curl
     dbus
-    dbus-sway-environment
+#    dbus-sway-environment
     dracula-theme
     fnm
     gh
