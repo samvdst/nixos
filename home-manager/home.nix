@@ -84,6 +84,8 @@
     zsh-syntax-highlighting
     zig
     zoxide
+    nodejs
+    fd
   ];
 
   # Enable home-manager and git
