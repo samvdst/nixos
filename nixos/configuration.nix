@@ -62,7 +62,17 @@ in
 
     # Import your generated (nixos-generate-config) hardware configuration
     ./hardware-configuration.nix
+
+    # build home manager with nixos
+    inputs.home-manager.nixosModules.home-manager
   ];
+
+  home-manager = {
+    extraSpecialArgs = { inherit inputs outputs; };
+    users = {
+      sam = import ../home-manager/home.nix;
+    };
+  };
 
   nixpkgs = {
     # You can add overlays here
@@ -110,6 +120,11 @@ in
     # Deduplicate and optimize nix store
     auto-optimise-store = true;
   };
+
+  programs.nix-ld.enable = true;
+  #programs.nix-ld.libraries = with pkgs; [
+  #
+  #];
 
   networking.hostName = "hades";
   networking.networkmanager.enable = true;

@@ -76,6 +76,8 @@
     tmux
     xterm
     vim
+    xfce.thunar
+    pulseaudio
     wget
     zig
     zoxide
