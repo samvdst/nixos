@@ -13,7 +13,7 @@
     vimdiffAlias = true;
 
     plugins = with pkgs.vimPlugins; [
-      nvim-treesitter
+      nvim-treesitter.withAllGrammars
     ];
   };
 }
