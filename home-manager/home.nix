@@ -58,7 +58,7 @@
     _1password-gui
     bat
     bemenu # wayland clone of dmenu
-    cargo
+    #cargo
     curl
     dracula-theme
     fnm
@@ -71,7 +71,7 @@
     pavucontrol
     remmina
     ripgrep
-    rustup
+    #rustup
     signal-desktop
     slurp # screenshot
     tmux
