@@ -128,16 +128,6 @@ in
       ];
       # Be sure to add any other groups you need (such as networkmanager, audio, docker, etc)
       extraGroups = ["networkmanager" "wheel"];
-	    packages = with pkgs; [
-	      alacritty
-	      _1password-gui
-	      configure-gtk
-	      curl
-	      dbus
-	      dbus-sway-environment
-	      dracula-theme
-	      gnome3.adwaita-icon-theme
-	    ];
     };
   };
 
@@ -158,6 +148,23 @@ in
     enable = true;
     wrapperFeatures.gtk = true;
   };
+
+environment.systemPackages = with pkgs; [
+    dbus
+    glib
+    dbus-sway-environment
+    mako # notification system developed by swaywm maintainer
+    xdg-utils
+    gnome3.adwaita-icon-theme
+    wl-clipboard # wl-copy and wl-paste for copy/paste from stdin/stdout
+    i3blocks
+    swayidle
+    wayland
+    wdisplays # tool to configure displays
+    swaylock
+    i3status
+    configure-gtk
+];
 
 ## This setups a SSH server. Very important if you're setting up a headless system.
 ## Feel free to remove if you don't need it.

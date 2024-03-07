@@ -59,21 +59,13 @@
     bat
     bemenu # wayland clone of dmenu
     cargo
-#    configure-gtk
     curl
-    dbus
-#    dbus-sway-environment
     dracula-theme
     fnm
     gh
-    glib
-    gnome3.adwaita-icon-theme
     google-chrome
     grim # screenshot
-    i3blocks
-    i3status
     lazygit
-    mako # notification system developed by swaywm maintainer
     nerdfonts
     oh-my-zsh
     pavucontrol
@@ -82,16 +74,10 @@
     rustup
     signal-desktop
     slurp # screenshot
-    swayidle
-    swaylock
     tmux
     xterm
     vim
-    wayland
-    wdisplays # tool to configure displays
     wget
-    wl-clipboard # wl-copy and wl-paste for copy/paste from stdin/stdout
-    xdg-utils
     zig
     zoxide
   ];
