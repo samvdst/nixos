@@ -33,9 +33,37 @@
       history.size = 25000;
       history.path = "${config.xdg.dataHome}/zsh/history";
       dotDir = ".config/";
+
+      plugins = [
+        {
+            name = "zsh-autosuggestions";
+            file = "zsh-autosuggestions.plugin.zsh";
+            src = builtins.fetchGit {
+              url = "https://github.com/zsh-users/zsh-autosuggestions";
+              rev = "a411ef3e0992d4839f0732ebeb9823024afaaaa8";
+            };
+        }
+        {
+            name = "zsh-vi-mode";
+            file = "zsh-vi-mode.plugin.zsh";
+            src = builtins.fetchGit {
+              url = "https://github.com/jeffreytse/zsh-vi-mode";
+              rev = "ea1f58ab9b1f3eac50e2cde3e3bc612049ef683b";
+            };
+        }
+        {
+            name = "zsh-syntax-highlighting";
+            file = "zsh-syntax-highlighting.plugin.zsh";
+            src = builtins.fetchGit {
+              url = "https://github.com/zsh-users/zsh-syntax-highlighting";
+              rev = "db085e4661f6aafd24e5acb5b2e17e4dd5dddf3e";
+            };
+        }
+      ];
+
       oh-my-zsh = {
         enable = true;
-        plugins = [ "git" "zsh-autosuggestions" "zsh-vi-mode" "zsh-syntax-highlighting" ];
+        plugins = [ "git" ];
         theme = "gozilla";
       };
   };
