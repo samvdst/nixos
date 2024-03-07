@@ -163,6 +163,7 @@ environment.systemPackages = with pkgs; [
     wdisplays # tool to configure displays
     swaylock
     i3status
+    google-chrome
     configure-gtk
 ];
 

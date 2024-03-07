@@ -63,7 +63,6 @@
     dracula-theme
     fnm
     gh
-    google-chrome
     grim # screenshot
     lazygit
     nerdfonts
