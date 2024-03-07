@@ -85,6 +85,7 @@
     swayidle
     swaylock
     tmux
+    xterm
     vim
     wayland
     wdisplays # tool to configure displays
