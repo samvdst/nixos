@@ -58,7 +58,6 @@
     _1password-gui
     bat
     bemenu # wayland clone of dmenu
-    #cargo
     curl
     dracula-theme
     fnm
@@ -70,7 +69,6 @@
     pavucontrol
     remmina
     ripgrep
-    #rustup
     signal-desktop
     slurp # screenshot
     tmux
@@ -83,9 +81,13 @@
     zsh-vi-mode
     zsh-syntax-highlighting
     zig
+    gcc
     zoxide
     nodejs
     fd
+    unzip
+    go
+    cargo
   ];
 
   # Enable home-manager and git
