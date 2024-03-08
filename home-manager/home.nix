@@ -60,6 +60,7 @@
     bemenu # wayland clone of dmenu
     cargo
     curl
+    delta
     dracula-theme
     eza
     fd
