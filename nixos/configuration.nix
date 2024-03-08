@@ -157,6 +157,7 @@ in
   ];
   services.gvfs.enable = true; # Mount, trash, and other functionalities
   services.tumbler.enable = true; # Thumbnail support for images
+  services.tailscale.enable = true;
 
   # NOTE: all needed for sway?
   services.pipewire = {
