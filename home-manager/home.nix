@@ -84,7 +84,6 @@
     unzip
     vim
     wget
-    xfce.thunar
     xterm
     zig
     zsh-autosuggestions
