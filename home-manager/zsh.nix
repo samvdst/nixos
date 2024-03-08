@@ -7,10 +7,10 @@
       enableAutosuggestions = true;
 
       shellAliases = {
-        l = "eza --long --color=always --icons=always --group-directories-first";
-        la = "l --all";
+        l = "eza --all --long --color=always --icons=always --group-directories-first";
+        la = "l";
         ll = "l";
-        lla = "la";
+        lla = "l";
         gs = "git status";
         gl = "git log";
         lg = "lazygit";
