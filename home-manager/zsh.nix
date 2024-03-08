@@ -19,9 +19,9 @@
         c = "nvim";
         cat = "bat";
         t = "tmux";
-        tl = "tmux ls";
-        ta = "tmux a -t";
-        tn = "tmux new -s";
+        tl = "t ls";
+        ta = "t a -t";
+        tn = "t new -s";
         rgf = "rg --files | rg";
         rgfu = "rg -u --files | rg";
         rgfuu = "rg -uu --files | rg";
@@ -29,7 +29,6 @@
         rgu = "rg -u";
         rguu = "rg -uu";
         rguuu = "rg -uuu";
-        config = "git --git-dir=$HOME/.cfg/ --work-tree=$HOME"; # TODO: is there a way to use nix variables for home
       };
 
       history.size = 25000;
