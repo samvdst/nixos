@@ -84,7 +84,6 @@
     xfce.thunar
     xterm
     zig
-    zoxide
     zsh-autosuggestions
     zsh-syntax-highlighting
     zsh-vi-mode
@@ -94,6 +93,10 @@
   programs.home-manager.enable = true;
   programs.git.enable = true;
   programs.alacritty.enable = true;
+  programs.zoxide = {
+    enable = true;
+    enableZshIntegration = true;
+  };
 
   # Nicely reload system units when changing configs
   systemd.user.startServices = "sd-switch";
