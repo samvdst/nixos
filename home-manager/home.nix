@@ -94,7 +94,25 @@
 
   # Enable home-manager and git
   programs.home-manager.enable = true;
-  programs.git.enable = true;
+  programs.git = {
+    enable = true;
+    userName = "Samuel Van der Stappen";
+    userEmail = "sam@vd.st";
+    extraConfig = {
+      credential."https://github.com".helper = "!gh auth git-credential";
+      credential."https://gist.github.com".helper = "!gh auth git-credential";
+      core = {
+        pager = "delta";
+        editor = "nvim";
+      };
+      interactive.diffFilter = "delta --color-only";
+      delta.navigate = "true";
+      merge.conflictstyle = "diff3";
+      diff.colorMoved = "default";
+      init.defaultBranch = "main";
+      push.autoSetupRemote = "true";
+    };
+  };
   programs.alacritty.enable = true;
   programs.zoxide = {
     enable = true;
