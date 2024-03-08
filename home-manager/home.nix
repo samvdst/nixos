@@ -58,36 +58,36 @@
     _1password-gui
     bat
     bemenu # wayland clone of dmenu
+    cargo
     curl
     dracula-theme
+    fd
     fnm
+    gcc
     gh
+    go
     grim # screenshot
     lazygit
     nerdfonts
+    nodejs
     oh-my-zsh
     pavucontrol
+    pulseaudio
     remmina
     ripgrep
     signal-desktop
     slurp # screenshot
     tmux
-    xterm
-    vim
-    xfce.thunar
-    pulseaudio
-    wget
-    zsh-autosuggestions
-    zsh-vi-mode
-    zsh-syntax-highlighting
-    zig
-    gcc
-    zoxide
-    nodejs
-    fd
     unzip
-    go
-    cargo
+    vim
+    wget
+    xfce.thunar
+    xterm
+    zig
+    zoxide
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    zsh-vi-mode
   ];
 
   # Enable home-manager and git
