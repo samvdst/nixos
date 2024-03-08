@@ -79,6 +79,7 @@
     ripgrep
     signal-desktop
     slurp # screenshot
+    tmate
     tmux
     unzip
     vim
