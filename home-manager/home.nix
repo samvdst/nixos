@@ -61,6 +61,7 @@
     cargo
     curl
     dracula-theme
+    eza
     fd
     fnm
     gcc
