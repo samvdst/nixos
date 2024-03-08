@@ -64,6 +64,7 @@
     dracula-theme
     eza
     fd
+    file
     fnm
     gcc
     gh
