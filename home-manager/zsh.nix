@@ -7,8 +7,8 @@
       enableAutosuggestions = true;
 
       shellAliases = {
-        ll = "ls -l";
-        lla = "ls -la";
+        ll = "eza --long --color=always --icons=always --group-directories-first";
+        lla = "ll --all";
         gs = "git status";
         gl = "git log";
         lg = "lazygit";
