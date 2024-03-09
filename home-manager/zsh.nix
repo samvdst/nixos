@@ -29,6 +29,7 @@
         rgu = "rg -u";
         rguu = "rg -uu";
         rguuu = "rg -uuu";
+        ns = "nix develop --command zsh";
       };
 
       history.size = 25000;

@@ -179,6 +179,10 @@ in
     wrapperFeatures.gtk = true;
   };
 
+  environment.variables = {
+    NIXPKGS_ALLOW_UNFREE  = "1";
+  };
+
 environment.systemPackages = with pkgs; [
     dbus
     glib
