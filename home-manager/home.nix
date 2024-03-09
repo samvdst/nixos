@@ -68,6 +68,7 @@
     gcc
     gh
     go
+    graphite-cli
     grim # screenshot
     lazygit
     nerdfonts
