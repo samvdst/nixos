@@ -55,8 +55,6 @@
    pkgs._1password-gui
    pkgs.bat
    pkgs.bemenu # wayland clone of dmenu
-   pkgs.unstable.cargo
-   pkgs.unstable.rustc
    pkgs.curl
    pkgs.delta
    pkgs.docker
