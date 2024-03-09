@@ -1,10 +1,7 @@
 # This is your home-manager configuration file
 # Use this to configure your home environment (it replaces ~/.config/nixpkgs/home.nix)
 {
-  inputs,
   outputs,
-  lib,
-  config,
   pkgs,
   ...
 }: {
@@ -113,7 +110,26 @@
       push.autoSetupRemote = "true";
     };
   };
-  programs.alacritty.enable = true;
+  programs.alacritty = {
+    enable = true;
+    settings = {
+      font = {
+        size = 12;
+        normal = {
+          family = "GeistMono Nerd Font Mono";
+        };
+        italic = {
+          family = "GeistMono Nerd Font Mono";
+        };
+        bold = {
+          family = "GeistMono Nerd Font Mono";
+        };
+      };
+      window = {
+        opacity = 0.9;
+      };
+    };
+  };
   programs.zoxide = {
     enable = true;
     enableZshIntegration = true;
