@@ -51,44 +51,46 @@
   };
 
   # Add stuff for your user as you see fit:
-  home.packages = with pkgs; [
-    _1password-gui
-    bat
-    bemenu # wayland clone of dmenu
-    curl
-    delta
-    docker
-    docker-compose
-    dracula-theme
-    eza
-    fd
-    file
-    fnm
-    gcc
-    gh
-    go
-    graphite-cli
-    grim # screenshot
-    lazygit
-    nerdfonts
-    nodejs
-    oh-my-zsh
-    pavucontrol
-    pulseaudio
-    remmina
-    ripgrep
-    signal-desktop
-    slurp # screenshot
-    tmate
-    tmux
-    unzip
-    vim
-    wget
-    xterm
-    zig
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-    zsh-vi-mode
+  home.packages = [
+   pkgs._1password-gui
+   pkgs.bat
+   pkgs.bemenu # wayland clone of dmenu
+   pkgs.unstable.cargo
+   pkgs.unstable.rustc
+   pkgs.curl
+   pkgs.delta
+   pkgs.docker
+   pkgs.docker-compose
+   pkgs.dracula-theme
+   pkgs.eza
+   pkgs.fd
+   pkgs.file
+   pkgs.fnm
+   pkgs.gcc
+   pkgs.gh
+   pkgs.go
+   pkgs.graphite-cli
+   pkgs.grim # screenshot
+   pkgs.lazygit
+   pkgs.nerdfonts
+   pkgs.nodejs
+   pkgs.oh-my-zsh
+   pkgs.pavucontrol
+   pkgs.pulseaudio
+   pkgs.remmina
+   pkgs.ripgrep
+   pkgs.signal-desktop
+   pkgs.slurp # screenshot
+   pkgs.tmate
+   pkgs.tmux
+   pkgs.unzip
+   pkgs.vim
+   pkgs.wget
+   pkgs.xterm
+   pkgs.zig
+   pkgs.zsh-autosuggestions
+   pkgs.zsh-syntax-highlighting
+   pkgs.zsh-vi-mode
   ];
 
   # Enable home-manager and git
