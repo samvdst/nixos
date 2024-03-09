@@ -181,6 +181,7 @@ in
 
   environment.variables = {
     NIXPKGS_ALLOW_UNFREE  = "1";
+    RUST_SRC_PATH = "${pkgs.rust.packages.stable.rustPlatform.rustLibSrc}";
   };
 
   environment.systemPackages = with pkgs; [
