@@ -59,5 +59,24 @@
         plugins = [ "git" ];
         theme = "gozilla";
       };
+
+      initExtra = ''
+        # Save the original prompt setup
+        ORIGINAL_PROMPT="$PROMPT"
+
+        # Function to update the prompt
+        update_prompt() {
+          if [[ -n $IN_NIX_SHELL ]]; then
+            # If inside a Nix shell, modify the prompt
+            PROMPT="[Nix] $ORIGINAL_PROMPT"
+          else
+            # If not in a Nix shell, use the original prompt
+            PROMPT="$ORIGINAL_PROMPT"
+          fi
+        }
+
+        # Call update_prompt before each command
+        precmd_functions+=(update_prompt)
+      '';
   };
 }
