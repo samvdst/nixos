@@ -58,6 +58,8 @@
     cargo
     curl
     delta
+    docker
+    docker-compose
     dracula-theme
     eza
     fd
