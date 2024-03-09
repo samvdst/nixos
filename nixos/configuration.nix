@@ -194,6 +194,8 @@ in
       i3blocks
       swayidle
       wayland
+      waybar
+      i3status-rust
       wdisplays # tool to configure displays
       swaylock
       i3status
