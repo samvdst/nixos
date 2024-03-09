@@ -200,6 +200,8 @@ in
       wdisplays # tool to configure displays
       swaylock
       i3status
+      unstable.cargo
+      unstable.rustc
       google-chrome
       configure-gtk
   ];

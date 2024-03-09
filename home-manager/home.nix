@@ -55,7 +55,6 @@
     _1password-gui
     bat
     bemenu # wayland clone of dmenu
-    unstable.cargo
     curl
     delta
     docker
@@ -78,7 +77,6 @@
     pulseaudio
     remmina
     ripgrep
-    unstable.rustc
     signal-desktop
     slurp # screenshot
     tmate
