@@ -116,13 +116,16 @@
       font = {
         size = 12;
         normal = {
-          family = "GeistMono Nerd Font Mono";
+          family = "UbuntuMono Nerd Font Mono";
+          style = "Regular";
         };
         italic = {
-          family = "GeistMono Nerd Font Mono";
+          family = "UbuntuMono Nerd Font Mono";
+          style = "Italic";
         };
         bold = {
-          family = "GeistMono Nerd Font Mono";
+          family = "UbuntuMono Nerd Font Mono";
+          style = "Bold";
         };
       };
       window = {
