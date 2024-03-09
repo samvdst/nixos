@@ -77,6 +77,7 @@
     pulseaudio
     remmina
     ripgrep
+    rustc
     signal-desktop
     slurp # screenshot
     tmate
