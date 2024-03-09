@@ -73,7 +73,6 @@
     nerdfonts
     nodejs
     oh-my-zsh
-    openssl
     pavucontrol
     pulseaudio
     remmina
