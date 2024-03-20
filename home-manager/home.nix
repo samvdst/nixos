@@ -63,6 +63,7 @@
    pkgs.delta
    pkgs.docker
    pkgs.discord
+   pkgs.gnome.simple-scan
    pkgs.docker-compose
    pkgs.dracula-theme
    pkgs.eza
