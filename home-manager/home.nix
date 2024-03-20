@@ -62,6 +62,7 @@
    pkgs.curl
    pkgs.delta
    pkgs.docker
+   pkgs.discord
    pkgs.docker-compose
    pkgs.dracula-theme
    pkgs.eza
