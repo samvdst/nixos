@@ -50,6 +50,10 @@
     homeDirectory = "/home/sam";
   };
 
+  home.sessionVariables = {
+    NIXOS_OZONE_WL = "1";
+  };
+
   # Add stuff for your user as you see fit:
   home.packages = [
    pkgs._1password-gui
