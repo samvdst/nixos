@@ -92,6 +92,7 @@
    pkgs.zsh-vi-mode
    pkgs.unstable.cargo
    pkgs.unstable.rustc
+   pkgs.unstable.gcc
   ];
 
   # Enable home-manager and git
