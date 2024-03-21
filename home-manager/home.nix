@@ -70,14 +70,10 @@
    pkgs.fd
    pkgs.file
    pkgs.fnm
-   pkgs.gcc
    pkgs.gh
-   pkgs.go
-   pkgs.graphite-cli
    pkgs.grim # screenshot
    pkgs.lazygit
    pkgs.nerdfonts
-   pkgs.nodejs
    pkgs.oh-my-zsh
    pkgs.pavucontrol
    pkgs.pulseaudio
@@ -90,8 +86,6 @@
    pkgs.unzip
    pkgs.vim
    pkgs.wget
-   pkgs.xterm
-   pkgs.zig
    pkgs.zsh-autosuggestions
    pkgs.zsh-syntax-highlighting
    pkgs.zsh-vi-mode
