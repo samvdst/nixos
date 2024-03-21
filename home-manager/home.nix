@@ -52,6 +52,7 @@
 
   home.sessionVariables = {
     NIXOS_OZONE_WL = "1";
+    RUST_SRC_PATH = "${pkgs.unstable.rust.packages.stable.rustPlatform.rustLibSrc}";
   };
 
   # Add stuff for your user as you see fit:
@@ -89,6 +90,8 @@
    pkgs.zsh-autosuggestions
    pkgs.zsh-syntax-highlighting
    pkgs.zsh-vi-mode
+   pkgs.unstable.cargo
+   pkgs.unstable.rustc
   ];
 
   # Enable home-manager and git
